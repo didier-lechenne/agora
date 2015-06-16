@@ -1,0 +1,480 @@
+/* ----------------------------- */
+/* == font blanchcondensed       */
+/* ----------------------------- */
+@font-face {
+    font-family: 'blanchcaps';
+    src: url('blanch_caps-webfont.eot');
+    src: url('blanch_caps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blanch_caps-webfont.woff2') format('woff2'),
+         url('blanch_caps-webfont.woff') format('woff'),
+         url('blanch_caps-webfont.ttf') format('truetype'),
+         url('blanch_caps-webfont.svg#blanchcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.blanchcaps{
+	font-family: 'blanchcaps',Helvetica, Arial, sans-serif;
+
+}
+
+body {
+  /*   rouge */
+  color:#e52520; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  
+}
+
+.plans a{
+	/*   rouge */
+	color:#e52520;
+	text-decoration: underline;
+	
+  }
+
+.plans a{
+	/*   rouge */
+	color:#e52520;
+	text-decoration: underline;
+	
+  }
+  
+
+
+
+.w360p{width:360px;}
+
+/* ----------------------------- */
+/* == fiche projet                     */
+/* ----------------------------- */
+
+.col1{
+}
+
+.col2--titre{
+	  font-size: 13rem;
+	  line-height: 0.6;
+}
+
+.col2--auteur{
+	  font-size: 6rem;
+	  line-height: 0.8;
+	  margin-bottom:40px;
+}
+
+
+
+/* ----------------------------- */
+/* == home                       */
+/* ----------------------------- */
+
+.home .contenu{
+	display: table;
+	width: 100%;
+	height: 600px;
+
+}
+
+.home .contenu-nav{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.home nav{
+	z-index: 3000000;
+	top: 0px;
+	right: 0;
+	font-size: 30rem;
+	line-height: 0;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.home .lien-home{
+	display: block;
+	font-size: 7rem;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	height: 60px;
+}
+
+.home .baseline{
+	display: block;
+	font-size: 3rem;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 80px;
+	text-align: center;
+	height: 60px;
+}
+
+
+
+.home nav:after{
+/*
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+*/
+}
+
+.home nav a {
+}
+
+
+
+
+
+/* ----------------------------- */
+/* == header                        */
+/* ----------------------------- */
+header h1{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+/* ----------------------------- */
+/* == nav                        */
+/* ----------------------------- */
+
+
+.contenu{
+	position: relative;
+	display: block;
+	z-index: 2000000;
+}
+
+
+
+  
+.groupe .nav{
+	position: absolute;
+	display: block;
+	z-index: 3000000;
+	top: 20px;
+	right: 0;
+	font-size: 11rem;
+	line-height: 0;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+.groupe .nav .home{
+	font-size: 5rem;
+	line-height: 0;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 20px;
+	margin-top: 43px;
+	height:50px
+}
+
+
+
+nav a {
+  color: #D1D1D1;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  /*   rouge */
+  color:#e52520; 
+}
+
+
+.groupe  nav span{
+	float: left;
+}
+
+
+.groupe  nav .iconnav-classer{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* ----------------------------- */
+/* == image        */
+/* ----------------------------- */
+
+.E-maxime{	background:url(../img/E-maxime.png) no-repeat; 	padding-bottom: 100%; 		}
+.E-maxime:hover{	background:url(../img/E-maxime-hover.png) no-repeat; 		padding-bottom: 100%; 	}
+.E-julie{	background:url(../img/E-julie.png) no-repeat; 	padding-bottom: 100%; 		}
+.E-julie:hover{	background:url(../img/E-julie-hover.png) no-repeat; 		padding-bottom: 100%; 	}
+.E-marie-emmanuelle{	background:url(../img/E-marie-emmanuelle.png) no-repeat; 	padding-bottom: 100%; 		}
+.E-marie-emmanuelle:hover{	background:url(../img/E-marie-emmanuelle-hover.png) no-repeat; 		padding-bottom: 100%; 	}
+.E-tarik{	background:url(../img/E-tarik.png) no-repeat; 	padding-bottom: 100%; 		}
+.E-tarik:hover{	background:url(../img/E-tarik-hover.png) no-repeat; 		padding-bottom: 100%; 	}
+
+
+.D-marjolaine{	background:url(../img/D-marjolaine.jpg) no-repeat;	padding-bottom: 100%; 		}
+.D-marjolaine:hover{	background:url(../img/D-marjolaine-hover.jpg) no-repeat; 	padding-bottom: 100%; 	}
+.D-marie{	background:url(../img/D-marie.png) no-repeat;	padding-bottom: 100%; 		}
+.D-marie:hover{	background:url(../img/D-marie-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+.D-yaqiu-fang{	background:url(../img/D-yaqiu-fang.png) no-repeat;	padding-bottom: 100%; 		}
+.D-yaqiu-fang:hover{	background:url(../img/D-yaqiu-fang-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+
+.R-margot-emilie{	background:url(../img/R-margot-emilie.png) no-repeat;	padding-bottom: 100%; 		}
+.R-margot-emilie:hover{	background:url(../img/R-margot-emilie-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+.R-alex-lea{	background:url(../img/R-alex-lea.png) no-repeat;	padding-bottom: 100%; 		}
+.R-alex-lea:hover{	background:url(../img/R-alex-lea-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+
+.C-camille{	background:url(../img/C-camille.png) no-repeat;	padding-bottom: 100%; 		}
+.C-camille:hover{	background:url(../img/C-camille-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+.C-marine{	background:url(../img/C-marine.png) no-repeat;	padding-bottom: 100%; 		}
+.C-marine:hover{	background:url(../img/C-marine-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+.C-victoire{	background:url(../img/C-victoire.png) no-repeat;	padding-bottom: 100%; 		}
+.C-victoire:hover{	background:url(../img/C-victoire-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+.C-ann-hermance{	background:url(../img/C-ann-hermance.png) no-repeat;	padding-bottom: 100%; 		}
+.C-ann-hermance:hover{	background:url(../img/C-ann-hermance-hover.png) no-repeat; 	padding-bottom: 100%; 	}
+
+
+
+/* ----------------------------- */
+/* == acceuil par groupe        */
+/* ----------------------------- */
+
+
+.projet{
+	padding-bottom:15px;
+
+/*
+	margin:10px;
+	border: 1px solid #e52520;
+*/
+}
+
+
+
+
+.projet--txt ul {
+	color:#e52520;
+  list-style: none;
+  padding-left: 0;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-family: 'blanchcaps';
+}
+
+.projet--txt ul li {
+	margin: 0;
+	padding: 0;
+}
+
+
+.projet--txt li.projet--txt--titre {
+	font-size: 7rem;
+	line-height: 0.7;
+}
+
+.projet--txt li.projet--txt--auteurs {
+	font-size: 3rem;
+	line-height: 1;
+}
+
+
+
+
+
+
+
+/* - */
+
+
+.grid-agora {
+  width: 100%;
+}
+
+.grid-agora  a {
+	/*   rouge */
+	color:#e52520; 
+	text-decoration: none;
+}
+
+.grid-agora  a:hover .projet--txt {
+	display: none;
+}
+
+
+
+.grid-agora  a:hover,
+.grid-agora  a:focus,
+.grid-agora  a:active {
+	/*   gris */
+    color: #D1D1D1;
+}
+
+
+.grid-agora>div {
+  width: 33%;
+  float: left;
+}
+
+
+
+.grid-agora .projet.ratio-cent-cent {
+  padding-bottom: 100%;
+}
+
+.grid-agora .projet {
+  position: relative;
+  height: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid #D1D1D1;
+}
+
+.grid-agora .projet div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.grid-agora .projet div img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.grid-agora  .projet .projet--txt {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font: 0/0 a;
+}
+
+.grid-agora .projet .projet--txt:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.grid-agora ul {
+  padding: 0;
+}
+
+.grid-agora .projet ul {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-family: 'blanchcaps';
+}
+
+.grid-agora .projet ul li {
+	margin: 0;
+	padding: 0;
+}
+
+
+.grid-agora > div li.projet--txt--titre {
+	font-size: 7rem;
+	line-height: 0.7;
+}
+
+.grid-agora > div li.projet--txt--auteurs {
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.projet--txt ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* ----------------------------- */
+/* == detail projet              */
+/* ----------------------------- */
+
+.page {
+	clear: both;
+	display: block;
+	/* 	background-color: #DE964D; */
+	padding: 10px;
+  }
+
+.page::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+
+.page .col1 , .page .col2{
+	width: 50%;
+	float: left;
+	/* 	background: #D16E20; */
+	padding: 10px;
+	display: block;
+  }
+
+
+.page .col1 img {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+.page .cartel{
+	padding-top: 20px;
+	font-weight: bold;
+}  
+
+.titre-groupe{
+	padding:0;
+	margin:0;
+	display: inline-block;
+}
+
+.titre-groupe .icon{
+	font-size: 35rem;
+	font-weight: normal;
+}
+
+.titre-groupe .titre{
+	font-size: 20rem;
+	font-weight: normal;
+	font-family: 'blanchcaps',Helvetica, Arial, sans-serif;
+
+}
+
+article{
+	padding-left:55px;
+}
+
+article .titre{
+	font-size: 13rem;
+	font-weight: normal;
+}
+
+article .auteur{
+	font-size: 6rem;
+	font-weight: normal;
+}
+
+

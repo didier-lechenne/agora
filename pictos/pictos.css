@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'agora-nav';
+	src:url('fonts/agora-nav.eot?-dqpdh7');
+	src:url('fonts/agora-nav.eot?#iefix-dqpdh7') format('embedded-opentype'),
+		url('fonts/agora-nav.woff?-dqpdh7') format('woff'),
+		url('fonts/agora-nav.ttf?-dqpdh7') format('truetype'),
+		url('fonts/agora-nav.svg?-dqpdh7#agora-nav') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iconnav-"], [class*=" iconnav-"] {
+	font-family: 'agora-nav';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconnav-eclairer-txt:before {
+	content: "\e600";
+}
+
+.iconnav-eclairer:before {
+	content: "\e601";
+}
+
+.iconnav-eclairer:hover:before {
+	content: "\e600";
+}
+
+.iconnav-disposer-txt:before {
+	content: "\e602";
+}
+
+.iconnav-disposer:before {
+	content: "\e603";
+}
+
+.iconnav-disposer:hover:before {
+	content: "\e602";
+}
+
+.iconnav-reunir-txt:before {
+	content: "\e604";
+}
+
+.iconnav-reunir:before {
+	content: "\e605";
+}
+
+.iconnav-reunir:hover:before {
+	content: "\e604";
+}
+
+.iconnav-classer-txt:before {
+	content: "\e614";
+}
+
+.iconnav-classer:before {
+	content: "\e615";
+}
+
+.iconnav-classer:hover:before {
+	content: "\e614";
+}
+
+.iconnav-plateforme-txt:before {
+	content: "\e616";
+}
+
+.iconnav-plateforme:before {
+	content: "\e617";
+}
+
+.iconnav-plateforme:hover:before {
+	content: "\e616";
+}
+
+
+
+
+
+@font-face {
+	font-family: 'agora';
+	src:url('fonts/agora.eot?-w2jxu7');
+	src:url('fonts/agora.eot?#iefix-w2jxu7') format('embedded-opentype'),
+		url('fonts/agora.woff?-w2jxu7') format('woff'),
+		url('fonts/agora.ttf?-w2jxu7') format('truetype'),
+		url('fonts/agora.svg?-w2jxu7#agora') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'agora';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eclairer:before {
+	content: "\e600";
+}
+
+.icon-disposer:before {
+	content: "\e601";
+}
+
+.icon-reunir:before {
+	content: "\e602";
+}
+
+.icon-classer:before {
+	content: "\e603";
+}
+
+.icon-plateforme:before {
+	content: "\e604";
+}
+
+
+
+
+
